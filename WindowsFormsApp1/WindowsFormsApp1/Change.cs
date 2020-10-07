@@ -10,29 +10,30 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class invites : Form
+    public partial class Change : Form
     {
-        public invites()
+        public Change()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Change change = new Change();
-            change.Show();
             this.Close();
+            invites invites = new invites();
+            invites.Show();
         }
 
-        private void invites_Load(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
+            this.Close();
             Form1 form1 = new Form1();
-            form1.Close();
+            form1.Show();
         }
     }
 }

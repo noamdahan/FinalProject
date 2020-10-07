@@ -19,10 +19,6 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            int x = 2;
-
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,6 +31,7 @@ namespace WindowsFormsApp1
         {
             invites invites = new invites();
             invites.Show();
+           
         }
     }
 }

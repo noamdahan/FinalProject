@@ -68,6 +68,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "ביצוע הזמנה";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -252,6 +253,7 @@
             this.Controls.Add(this.button1);
             this.Name = "invites";
             this.Text = "invites";
+            this.Load += new System.EventHandler(this.invites_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
