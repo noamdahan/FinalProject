@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void accept_order(object sender, EventArgs e)
         {
             Change change = new Change();
             change.Show();
@@ -33,6 +33,31 @@ namespace WindowsFormsApp1
         {
             Form1 form1 = new Form1();
             form1.Close();
+        }
+
+        private void add_openning(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_meal(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_salad(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_drink(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_desert(object sender, EventArgs e)
+        {
+
         }
     }
 }
