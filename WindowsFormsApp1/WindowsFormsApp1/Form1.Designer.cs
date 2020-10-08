@@ -29,7 +29,11 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.invites = new System.Windows.Forms.Button();
+=======
+            this.Orders = new System.Windows.Forms.Button();
+>>>>>>> origin/daniel
             this.SuspendLayout();
             // 
             // button1
@@ -40,8 +44,9 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "מנהל";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.manager_button);
             // 
+<<<<<<< HEAD
             // invites
             // 
             this.invites.Location = new System.Drawing.Point(344, 182);
@@ -51,13 +56,28 @@
             this.invites.Text = "הזמנות";
             this.invites.UseVisualStyleBackColor = true;
             this.invites.Click += new System.EventHandler(this.button2_Click);
+=======
+            // Orders
+            // 
+            this.Orders.Location = new System.Drawing.Point(344, 182);
+            this.Orders.Name = "Orders";
+            this.Orders.Size = new System.Drawing.Size(112, 86);
+            this.Orders.TabIndex = 1;
+            this.Orders.Text = "הזמנות";
+            this.Orders.UseVisualStyleBackColor = true;
+            this.Orders.Click += new System.EventHandler(this.order_button);
+>>>>>>> origin/daniel
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+<<<<<<< HEAD
             this.Controls.Add(this.invites);
+=======
+            this.Controls.Add(this.Orders);
+>>>>>>> origin/daniel
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -69,7 +89,11 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
+<<<<<<< HEAD
         private System.Windows.Forms.Button invites;
+=======
+        private System.Windows.Forms.Button Orders;
+>>>>>>> origin/daniel
     }
 }
 

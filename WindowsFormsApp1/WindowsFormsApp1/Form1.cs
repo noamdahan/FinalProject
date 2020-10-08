@@ -21,13 +21,13 @@ namespace WindowsFormsApp1
         {
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void manager_button(object sender, EventArgs e)
         {
             manager manager = new manager();
             manager.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void order_button(object sender, EventArgs e)
         {
             invites invites = new invites();
             invites.Show();

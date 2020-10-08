@@ -68,7 +68,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "ביצוע הזמנה";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.accept_order);
             // 
             // label1
             // 
@@ -171,6 +171,7 @@
             this.button3.TabIndex = 13;
             this.button3.Text = "הוספה";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.add_openning);
             // 
             // button4
             // 
@@ -180,6 +181,7 @@
             this.button4.TabIndex = 14;
             this.button4.Text = "הוספה";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.add_meal);
             // 
             // button5
             // 
@@ -189,6 +191,7 @@
             this.button5.TabIndex = 15;
             this.button5.Text = "הוספה";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.add_salad);
             // 
             // button6
             // 
@@ -198,6 +201,7 @@
             this.button6.TabIndex = 16;
             this.button6.Text = "הוספה";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.add_drink);
             // 
             // button7
             // 
@@ -207,6 +211,7 @@
             this.button7.TabIndex = 17;
             this.button7.Text = "הוספה";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.add_desert);
             // 
             // label6
             // 

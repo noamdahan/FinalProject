@@ -17,12 +17,12 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void exit_order(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void accept_order(object sender, EventArgs e)
         {
             int x = 2;
             Change change = new Change();
@@ -34,6 +34,31 @@ namespace WindowsFormsApp1
         {
             Form1 form1 = new Form1();
             form1.Close();
+        }
+
+        private void add_openning(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_meal(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_salad(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_drink(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_desert(object sender, EventArgs e)
+        {
+
         }
     }
 }
